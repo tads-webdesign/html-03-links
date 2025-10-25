@@ -369,7 +369,7 @@ Use o atributo `download` para forçar o download de arquivos.
 
 ## Exemplo Completo
 
-Aqui está um exemplo completo de uma página HTML5 utilizando diversos tipos de links e âncoras:
+Abaixo, e também nos arquivos `index.html` e `css/links.css`, está um exemplo completo de uma página HTML5 utilizando diversos tipos de links e âncoras:
 
 ```html
 <!DOCTYPE html>
@@ -378,51 +378,7 @@ Aqui está um exemplo completo de uma página HTML5 utilizando diversos tipos de
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo Completo - Links e Âncoras</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        nav {
-            background-color: #333;
-            padding: 10px;
-            margin-bottom: 20px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 15px;
-            display: inline-block;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        section {
-            margin-bottom: 40px;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-        .topo {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #007bff;
-            color: white;
-            padding: 10px 15px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        footer {
-            background-color: #f4f4f4;
-            padding: 20px;
-            margin-top: 40px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="css/links.css">
 </head>
 <body>
 
@@ -565,6 +521,60 @@ Aqui está um exemplo completo de uma página HTML5 utilizando diversos tipos de
 
 </body>
 </html>
+
+```
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
 ```
 
 ### Explicação do Exemplo Completo
@@ -582,12 +592,6 @@ Este exemplo demonstra:
 9. **Link Fixo para o Topo**: Um botão flutuante para voltar ao início
 10. **Estrutura Semântica**: Uso adequado de `<nav>`, `<section>`, `<footer>`
 
-### Como usar este exemplo:
-
-1. Copie o código para um arquivo `.html`
-2. Abra em um navegador
-3. Teste os diferentes links e navegação
-4. Experimente modificar e adicionar seus próprios links
 
 ---
 
